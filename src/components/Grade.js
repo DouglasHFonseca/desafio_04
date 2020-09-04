@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import GradeDataService from '../services/GradeService';
+import './App.css';
 
 const Grade = (props) => {
   const initialGradeState = {
@@ -57,7 +58,7 @@ const Grade = (props) => {
       {currentGrade ? (
         <div className="edit-form">
           <h4>Grade</h4>
-          <form>
+          <form id="main">
             <div className="form-group">
               <label htmlFor="name">Name</label>
               <input

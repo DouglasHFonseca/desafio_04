@@ -28,7 +28,7 @@ function App() {
             </li>
           </div>
         </nav>
-        <div className="container mt-3">
+        <div className="container mt-3" id="main">
           <Switch>
             <Route exact path={['/', '/grade']} component={GradeList} />
             <Route exact path="/add" component={AddGrade} />

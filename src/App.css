@@ -3,7 +3,15 @@
   max-width: 750px;
   margin: auto;
 }
-
+#main{
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 1em grey;
+}
+body{
+  background-color: whitesmoke;
+}
 .submit-form {
   max-width: 300px;
   margin: auto;
